@@ -1,0 +1,85 @@
+body{
+  box-sizing: border-box;
+  font-family:  sans-serif;
+  background-color: #F1F1F1;
+  font-weight: bold;
+}
+body*{
+  box-sizing: border-box;
+}
+input{
+  position: relative;
+  border:none;
+  font-size: 90px;
+  background-color: #F1F1F1;
+  font-weight: bold;
+  width: 80%;
+  color: #ec5a62;
+}
+input::-webkit-input-placeholder{
+  color: #c2c2c2;
+}
+input[type="image"]{
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+div.search{
+  position: relative;
+  width: 90%;
+  height: 100px;
+  display: inline-blok;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+div.container{
+  width: 90%;
+  list-style: none;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.people, .recent, .popular{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  color: #c2c2c2;
+}
+li {
+  list-style-type: none;
+  background-color:  rgba(118,117,128,0.05);
+  position: relative;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  box-sizing: border-box;
+}
+img{
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+span{
+  display: inline-block;
+}
+ul li span{
+  display: block;
+  padding-left: 85px;
+  padding-top: 25px;
+}
+.name{
+  padding-left: 40px;
+}
+.people ul li img {
+  border-radius: 100px;
+}
+.people li:hover, .recent li:hover, .popular li:hover {
+  background-color: rgba(118,117,128,0.1);
+}
+.people li:hover, .recent li:hover, .popular li:hover{
+   color: #ec5a62;
+}
